@@ -3,6 +3,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
+  color: rgb(6, 88, 20);
 }
 
 .container {
@@ -16,7 +17,7 @@ body {
 
 h1 {
   font-weight: 100;
-  color: white;
+
   text-align: center;
   font-size: 2rem;
 }
@@ -27,7 +28,7 @@ h1 {
   right: -8px;
   border-radius: 50%;
   background-color: #ec5990;
-  color: #fff;
+  color: rgb(255, 255, 255);
   display: inline-block;
   padding-left: 6px;
   padding-right: 6px;
@@ -203,7 +204,7 @@ hr {
 }
 
 h2 {
-  color: white;
+  color: rgb(14, 185, 14);
   font-weight: 200;
 }
 
@@ -252,7 +253,7 @@ pre {
   border-bottom: 2px solid !important;
 }
 .dark-mode {
-  color: rgb(27, 190, 12);
+  color: rgb(240, 245, 239);
   background-color: #313843;
 }
 .navbar .dark-mode {
