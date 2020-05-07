@@ -1,5 +1,5 @@
 body {
-  background: #0e101c;
+  background: #04167e;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -250,4 +250,33 @@ pre {
 .active {
   color: #0e101c;
   border-bottom: 2px solid !important;
+}
+.dark-mode {
+  color: rgb(27, 190, 12);
+  background-color: #313843;
+}
+.navbar .dark-mode {
+  background-color: #010816;
+  border: none;
+}
+.dark-mode__toggle {
+  background: papayawhip;
+  border-radius: 50px;
+  border: 1px solid black;
+  height: 20px;
+  position: relative;
+  width: 40px;
+}
+.toggle {
+  background: #f68819;
+  border-radius: 50px;
+  height: 18px;
+  left: 0;
+  position: absolute;
+  transition: 0.2s;
+  width: 20px;
+}
+
+.toggled {
+  left: 18px;
 }
