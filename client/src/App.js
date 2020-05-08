@@ -11,7 +11,9 @@ import "./App.css";
 function App() {
   // array of plants that have been added to the cart
   const [cart, setCart] = useState([]);
-  const [darkMode, setDarkMode] = useDarkMode(false);
+
+  //Stretch goal to add dark mode to page
+  const [darkMode, setDarkMode] = useDarkMode("dark mode", false);
   const toggleMode = (e) => {
     e.preventDefault();
     setDarkMode(!darkMode);
